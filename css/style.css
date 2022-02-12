@@ -187,10 +187,10 @@ li:nth-last-child(2) {
         border-radius: 20px; 
 
         /* Size/Spacing */
-        padding: 10px;
+        padding: 5px;
         margin: 0;
         width: 90px;
-        height: 40px;
+        height: 45px;
         z-index: 1;
     }
 }
