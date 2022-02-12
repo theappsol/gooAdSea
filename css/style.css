@@ -187,9 +187,10 @@ li:nth-last-child(2) {
         /* Decorations */    
         border-radius: 20px; 
         margin-right : 10px;
+        margin-left : 20px
         /* Size/Spacing */
         padding: 12px;
-        margin: 0;
+        
         width: 90px;
         height: 45px;
         z-index: 1;
