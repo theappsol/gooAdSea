@@ -180,12 +180,13 @@ li:nth-last-child(2) {
         width: 35%;
         height: 18px;
         border-radius: 15px; 
+        margin-left : 10px;
         
     }
     #search-button {
         /* Decorations */    
         border-radius: 20px; 
-
+        margin-left : 10px;
         /* Size/Spacing */
         padding: 12px;
         margin: 0;
