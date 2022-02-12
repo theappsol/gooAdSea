@@ -41,8 +41,8 @@ a {
 }
 #dropdown-button {
     /* Decorations */
-    background: rgb(79, 76, 76);
-    border: 1px solid rgb(79, 76, 76);
+    background: rgb(72, 68, 68);
+    border: 1px solid rgb(72, 68, 68);
     text-align: left;
     outline: none;
     color: #ccc;
@@ -55,7 +55,7 @@ a {
     text-align: left;
     background: #444;
     padding: 0px;
-    border: 1px solid rgb(79, 76, 76);
+    border: 1px solid rgb(72, 68, 68);
 }
 ul {
     padding: 0px;
@@ -84,11 +84,12 @@ li:nth-last-child(2) {
     color: #333;
     font-size: 1rem;
     font-weight: 600;
+    border: 1px solid rgb(72, 68, 68);
 }
 #search-button {
     /* Decorations */    
-    background: rgb(79, 76, 76);
-    border: 1px solid rgb(79, 76, 76);
+    background: #222;
+    border: 1px solid rgb(72, 68, 68);
     text-align: center;
     outline: none;
     color: #ccc;
@@ -106,7 +107,7 @@ li:nth-last-child(2) {
 }
 .donate {
     background: #222;
-    border: 1px solid rgb(79, 76, 76);
+    border: 1px solid rgb(72, 68, 68);
     text-align: center;
     outline: none;
     color: #ccc;
@@ -128,33 +129,37 @@ li:nth-last-child(2) {
     p {font-size: 2rem;}
     
     #search-bar {
-        width: 50%;
-        height: 60px;
+        width: 95%;
+        height: 40px;
         margin: 0 auto;
         text-align: center;
+        border-radius:15px; 
     }
     #dropdown {
         width: 200px;
         height: 42px;
         display: inline-block;
+        border-radius: 15px; 
     }    
     #dropdown-button {
         /* Decorations */
-        border-radius: 10px 0 0 10px;
+        /* border-radius: 10px 0 0 10px; */
         
         /* Size/Spacing */
         padding: 10px;
-        margin: 0;
-        width: 200px;
+        margin: 0 2;
+        width: 186px;
         height: 42px;
+        border-radius: 15px; 
     }
     #dropdown-menu {
         margin-left: 14px;
         margin-top: -1px;
         display: none;
         position: absolute;
-        border-radius: 0 0 10px 10px;
+        /* border-radius: 0 0 10px 10px; */
         z-index: 1;
+        border-radius: 15px; 
     }
     ul {
         width: 185px;
@@ -172,19 +177,20 @@ li:nth-last-child(2) {
         /* Size/Spacing */
         padding: 10px;
         margin: -6px;
-        width: 50%;
+        width: 35%;
         height: 18px;
-        border: 2px solid rgb(79, 76, 76);
+        border-radius: 15px; 
+        
     }
     #search-button {
         /* Decorations */    
-        border-radius: 0 10px 10px 0;
+        border-radius: 20px; 
 
         /* Size/Spacing */
         padding: 10px;
         margin: 0;
-        width: 40px;
-        height: 42px;
+        width: 120px;
+        height: 50px;
         z-index: 1;
     }
 }
@@ -198,15 +204,18 @@ li:nth-last-child(2) {
         margin: 0 auto;
         display: block;
         width: 90%;
+        border-radius: 15px; 
     }
     #dropdown {
-        width: 100%;
+        width: 50%;
+        border-radius: 15px; 
     }
     #dropdown-button {
         /* Decorations */
-        border-radius: 10px 10px 0 0;
+        border-radius: 15px; 
         font-size: 1.5rem;
         font-weight: 600;
+        border-radius: 15px; 
         
         /* Size/Spacing */
         padding: 10px;
@@ -216,9 +225,10 @@ li:nth-last-child(2) {
     }
     #dropdown-menu{
         font-size: 1.3rem;
+        border-radius: 15px; 
         width: 98%;
         margin: 0 auto;
-        box-shadow: 0px 0px 40px rgb(79, 76, 76);
+        box-shadow: 0px 0px 40px rgb(72, 68, 68);
         -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
         -moz-box-sizing: border-box;    /* Firefox, other Gecko */
         box-sizing: border-box;         /* Opera/IE 8+ */
@@ -237,7 +247,7 @@ li:nth-last-child(2) {
         padding: 10px;
         margin: -1px 0;
         width: 100%;
-        border: 1px solid rgb(79, 76, 76);
+        border-radius: 15px; 
         -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
         -moz-box-sizing: border-box;    /* Firefox, other Gecko */
         box-sizing: border-box;         /* Opera/IE 8+ */
@@ -245,7 +255,7 @@ li:nth-last-child(2) {
     }
     #search-button {
         /* Decorations */    
-        border-radius: 0 0 10px 10px;
+        border-radius: 15px; 
         font-size: 1.5rem;
         font-weight: 600;
         content: "Search";
