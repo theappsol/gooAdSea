@@ -189,8 +189,8 @@ li:nth-last-child(2) {
         /* Size/Spacing */
         padding: 10px;
         margin: 0;
-        width: 120px;
-        height: 50px;
+        width: 90px;
+        height: 40px;
         z-index: 1;
     }
 }
