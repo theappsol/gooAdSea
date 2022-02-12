@@ -186,11 +186,9 @@ li:nth-last-child(2) {
     #search-button {
         /* Decorations */    
         border-radius: 20px; 
-        margin-right : 10px;
-        margin-left : 20px
+        margin-left : 30px
         /* Size/Spacing */
         padding: 12px;
-        
         width: 90px;
         height: 45px;
         z-index: 1;
