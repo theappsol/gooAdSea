@@ -129,7 +129,7 @@ li:nth-last-child(2) {
     
     #search-bar {
         width: 50%;
-        height: 40px;
+        height: 60px;
         margin: 0 auto;
         text-align: center;
     }
@@ -172,7 +172,7 @@ li:nth-last-child(2) {
         /* Size/Spacing */
         padding: 10px;
         margin: -6px;
-        width: 60%;
+        width: 30%;
         height: 18px;
         border: 2px solid rgb(79, 76, 76);
     }
